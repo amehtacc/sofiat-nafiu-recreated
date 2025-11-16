@@ -40,11 +40,11 @@ Live demo link and screenshots will be added once the project is deployed.
 ## 🧩 Installation & Setup
 ### 1. Clone the repository
 ```
-git clone https://github.com/amehtacc/vito-viktor-recreated.git
+git clone https://github.com/amehtacc/sofiat-nafiu-recreated.git
 ```
 ### 2. Open the folder
 ```
-cd vito-viktor-recreated
+cd sofiat-nafiu-recreated
 ```
 ### 3. Install dependencies
 ```
