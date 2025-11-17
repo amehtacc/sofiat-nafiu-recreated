@@ -1,8 +1,28 @@
-@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Gabarito:wght@400..900&family=Marck+Script&display=swap");
 
+@import "tailwindcss";
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: rgba(255, 253, 235, 1);
+}
+
+@theme {
+  --font-gabarito: "Gabarito", sans-serif;
+  --font-marckScript: "Marck Script", cursive;
+  --font-architectsDaughter: "Architects Daughter", cursive;
+}
+
+@utility font-space {
+  font-family: var(--font-space);
+}
+
+@utility font-marckScript {
+  font-family: var(--font-marckScript);
+}
+
+@utility font-architectsDaughter {
+  font-family: var(--font-architectsDaughter);
 }
