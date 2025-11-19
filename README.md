@@ -60,3 +60,17 @@ npm run dev
 ## 🧑‍💻 Developer
 **Aryan Mehta** <br>
 Frontend Developer passionate about building beautiful, high-performance web experiences.
+
+<br>
+
+## 📚 My Learnings from this Project
+### 19/11/2025
+Today, I learned and used the onMouseEnter and onMouseLeave attributes.
+Even though I already knew about them before, this was my first time actually implementing them in a project.
+
+These attributes helped me:
+- Detect when the mouse enters or leaves a specific element
+- Trigger smooth hover effects
+- Track user interaction on particular components automatically
+
+A small but useful skill added to my React toolkit!
