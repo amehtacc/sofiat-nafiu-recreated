@@ -1,10 +1,10 @@
 import React from "react";
-import { Logo_Black, Arrow } from "../assets/images";
+import { Logo_Black, Logo_Yellow, Arrow } from "../assets/images";
 import { Menu } from "lucide-react";
 
 function Header() {
   return (
-    <header className="sticky top-0 w-full h-16 px-10 z-50 mx-auto">
+    <header className="sticky top-0 w-full h-16 px-10 z-50 mx-auto bg-[rgba(255,253,235,1)]">
       <div className="w-full h-full py-2 px-8 border-x border-b border-[rgb(44,4,18)] flex items-center justify-between">
         <div>
           <a href="#">
@@ -32,6 +32,11 @@ function Header() {
             </span>
           </button>
         </div>
+      </div>
+
+      <div className="w-[200px] font-gabarito absolute top-48 -right-8 px-4 py-3 bg-black text-white -rotate-90 flex items-center justify-between">
+        <p className="font-medium text-2xl">Nominee</p>
+        <p className="font-bold text-3xl inline-block rotate-90 -mr-2">W.</p>
       </div>
     </header>
   );
