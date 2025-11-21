@@ -59,7 +59,7 @@ npm run dev
 
 ## 🧑‍💻 Developer
 **Aryan Mehta** <br>
-Frontend Developer passionate about building beautiful, high-performance web experiences.
+Frontend focused Fullstack Developer passionate about building beautiful, high-performance web experiences.
 
 <br>
 
