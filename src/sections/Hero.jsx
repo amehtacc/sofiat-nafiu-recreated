@@ -5,7 +5,7 @@ function Hero() {
   const [isEvolHover, setIsEvolHover] = useState(false);
 
   return (
-    <section className="relative w-full h-full px-10">
+    <section className="relative w-full px-4 lg:px-10">
       <div className="w-full h-full pb-4 border-x border-[rgb(44,4,18)] ">
         <div className="h-[90%] pt-16 px-8 font-gabarito">
           <h1 className="w-[60%] text-7xl text-left font-semibold mb-10 text-[rgb(44,4,18)]">
