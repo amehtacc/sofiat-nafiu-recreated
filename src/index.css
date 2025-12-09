@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Gabarito:wght@400..900&family=Marck+Script&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Gabarito:wght@400..900&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Marck+Script&display=swap');
 @import "tailwindcss";
 
 body {
@@ -13,6 +12,7 @@ body {
   --font-gabarito: "Gabarito", sans-serif;
   --font-marckScript: "Marck Script", cursive;
   --font-architectsDaughter: "Architects Daughter", cursive;
+  --font-interTight: "Inter Tight", sans-serif;
 }
 
 @utility font-space {
@@ -25,4 +25,8 @@ body {
 
 @utility font-architectsDaughter {
   font-family: var(--font-architectsDaughter);
+}
+
+@utility font-interTight {
+  font-family: var(--font-interTight);
 }
