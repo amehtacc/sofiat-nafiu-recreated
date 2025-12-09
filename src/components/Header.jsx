@@ -40,7 +40,7 @@ function Header() {
         </div>
       </div>
 
-      <div className="w-[200px] font-gabarito absolute top-48 -right-13.5 lg:-right-8 px-4 py-3 bg-black text-white -rotate-90 flex items-center justify-between">
+      <div className="w-[200px] font-gabarito absolute top-48 -right-13.5 lg:-right-7.5 px-4 py-3 bg-black text-white -rotate-90 flex items-center justify-between">
         <p className="font-medium text-2xl">Nominee</p>
         <p className="font-bold text-3xl inline-block rotate-90 -mr-2">W.</p>
       </div>
