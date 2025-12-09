@@ -2,8 +2,8 @@ import React from "react";
 import { Arrow_Small_Yellow } from "../assets/images";
 function Footer() {
   return (
-    <footer className="relative w-full bg-[#100a0d] px-4 lg:px-10 overflow-hidden">
-      <div className="w-full h-full text-white font-gabarito">
+    <footer className="relative w-full bg-[#100a0d] lg:bg-transparent px-4 lg:px-10 overflow-hidden">
+      <div className="w-full h-full text-white font-gabarito lg:bg-[#100a0d]">
         <div className="border-x 2xl:border-none border-[rgb(74,69,71)] px-5 pt-5 lg:pt-10 pb-10">
           <h1 className="lg:w-[70%] text-4xl lg:text-[4rem] lg:leading-none">
             {" "}
