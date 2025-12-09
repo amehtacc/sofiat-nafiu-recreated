@@ -8,50 +8,50 @@ function ScrollContainer() {
     target: null,
     offset: ["start", "end"],
   });
-  const scrollX = useTransform(scrollYProgress, [0, 1], ["0px", "-85px"]);
+  const scrollX = useTransform(scrollYProgress, [0, 1], ["0px", "-3500px"]);
   return (
-    <div className="relative w-full h-[180px] overflow-hidden bg-black">
+    <div className="relative w-full h-[120px] md:h-[180px] overflow-hidden bg-black">
       <motion.div
         ref={refScrollX}
         style={{ translateX: scrollX }}
-        className="flex"
+        className="w-full h-full flex"
       >
-        <span className="w-fit flex pr-10 text-white font-gabarito text-[112px] shrink-0 items-center">
+        <span className="flex items-center pr-10 text-white font-gabarito text-[80px] md:text-[112px] shrink-0 whitespace-nowrap">
           {"Selected Works "}
           <img
-            className="w-20 ml-10"
+            className="w-10 md:w-20 ml-10"
             src={Arrow_Small_Yellow}
             alt="Arrow_Small_Yellow"
           />
         </span>
-        <span className="w-fit flex pr-10 text-white font-gabarito text-[112px] shrink-0 items-center">
+        <span className="flex items-center pr-10 text-white font-gabarito text-[80px] md:text-[112px] shrink-0 whitespace-nowrap">
           {"Selected Works "}
           <img
-            className="w-20 ml-10"
+            className="w-10 md:w-20 ml-10"
             src={Arrow_Small_Yellow}
             alt="Arrow_Small_Yellow"
           />
         </span>
-        <span className="w-fit flex pr-10 text-white font-gabarito text-[112px] shrink-0 items-center">
+        <span className="flex items-center pr-10 text-white font-gabarito text-[80px] md:text-[112px] shrink-0 whitespace-nowrap">
           {"Selected Works "}
           <img
-            className="w-20 ml-10"
+            className="w-10 md:w-20 ml-10"
             src={Arrow_Small_Yellow}
             alt="Arrow_Small_Yellow"
           />
         </span>
-        <span className="w-fit flex pr-10 text-white font-gabarito text-[112px] shrink-0 items-center">
+        <span className="flex items-center pr-10 text-white font-gabarito text-[80px] md:text-[112px] shrink-0 whitespace-nowrap">
           {"Selected Works "}
           <img
-            className="w-20 ml-10"
+            className="w-10 md:w-20 ml-10"
             src={Arrow_Small_Yellow}
             alt="Arrow_Small_Yellow"
           />
         </span>
-        <span className="w-fit flex pr-10 text-white font-gabarito text-[112px] shrink-0 items-center">
+        <span className="flex items-center pr-10 text-white font-gabarito text-[80px] md:text-[112px] shrink-0 whitespace-nowrap">
           {"Selected Works "}
           <img
-            className="w-20 ml-10"
+            className="w-10 md:w-20 ml-10"
             src={Arrow_Small_Yellow}
             alt="Arrow_Small_Yellow"
           />
