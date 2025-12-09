@@ -8,13 +8,11 @@ import {
 } from "../assets/images";
 
 function SliderMenu({ openMenu, setOpenMenu }) {
-  console.log(openMenu);
-
   return (
     <div
       className={`w-full h-screen mx-auto font-gabarito flex items-center bg-white fixed top-20 lg:top-0 z-50 overflow-hidden ${
         openMenu ? "translate-x-0" : "translate-x-full"
-      } transition-all duration-1000 ease-in-out`}
+      } transition-transform duration-1100 ease-in-out`}
     >
       <div className="w-1/2 hidden lg:block h-full bg-[#ffe500]">
         <div className="h-16 border-b border-[rgb(44,4,18)] pl-16">
