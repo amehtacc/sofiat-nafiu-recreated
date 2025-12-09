@@ -5,6 +5,7 @@ import Arrow_Long_Yellow from "../assets/arrow-long-yellow.svg";
 import Arrow_Small_Yellow from "../assets/arrow-small-yellow.svg";
 import Arrow from "../assets/arrow.svg";
 import Arrow_Yellow from "../assets/arrow-yellow.svg";
+import My_Project from "../assets/my-project.svg"
 import Ecoremind_Overlay_1 from "../assets/ecoremind-overlay-1.svg";
 import Ecoremind_Overlay_2 from "../assets/ecoremind-overlay-2.svg";
 import Edueat_Overlay_1 from "../assets/edueat-overlay-1.svg";
@@ -22,6 +23,7 @@ export {
   Arrow_Small_Yellow,
   Arrow,
   Arrow_Yellow,
+  My_Project,
   Ecoremind_Overlay_1,
   Ecoremind_Overlay_2,
   Edueat_Overlay_1,
