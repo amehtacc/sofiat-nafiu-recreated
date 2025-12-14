@@ -46,6 +46,7 @@ function ProcessCard({index, count, title, details, expandedHeight, openIndex, s
                 } transition-all duration-1000 ease-in-out`}
                 src={hover ? Arrow_Yellow : Arrow}
                 alt="Arrow"
+                loading="lazy"
               />
             </div>
           </div>

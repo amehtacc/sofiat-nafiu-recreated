@@ -18,7 +18,12 @@ function SliderMenu({ openMenu, setOpenMenu }) {
         <div className="h-16 border-b border-[rgb(44,4,18)] pl-16">
           <div className="h-full flex items-center px-6 border-l border-[rgb(44,4,18)]">
             <a href="#">
-              <img className="w-8 h-auto" src={Logo_Black} alt="Logo" />
+              <img
+                className="w-8 h-auto"
+                src={Logo_Black}
+                alt="Logo"
+                loading="lazy"
+              />
             </a>
           </div>
         </div>
@@ -34,6 +39,7 @@ function SliderMenu({ openMenu, setOpenMenu }) {
               className="w-full h-full object-cover"
               src={My_Project}
               alt="My_Project"
+              loading="lazy"
             />
           </div>
         </div>
@@ -51,11 +57,12 @@ function SliderMenu({ openMenu, setOpenMenu }) {
                   className="group-hover/item:rotate-52 transition-transform duration-1000 ease-in-out"
                   src={Arrow}
                   alt="Arrow"
+                  loading="lazy"
                 />
               </div>
             </a>
             <button
-              onClick={() => setOpenMenu(prev => !prev)}
+              onClick={() => setOpenMenu((prev) => !prev)}
               className="px-3 py-1 flex items-center justify-center gap-1 bg-[#2c0412] text-[#ffe500] rounded-3xl group-hover/main:translate-x-4 hover:translate-x-0 transition-transform duration-1000 ease-in-out cursor-pointer"
             >
               <p className="mb-0.5">Close</p>
@@ -150,6 +157,7 @@ function SliderMenu({ openMenu, setOpenMenu }) {
                   className="w-8"
                   src={Arrow_Small_Yellow}
                   alt="Arrow_Small_Yellow"
+                  loading="lazy"
                 />
               </div>
             </div>

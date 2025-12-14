@@ -30,6 +30,7 @@ function ScrollContainer() {
             className="w-10 md:w-20 ml-10"
             src={Arrow_Small_Yellow}
             alt="Arrow_Small_Yellow"
+            loading="lazy"
           />
         </span>
         <span className="flex items-center pr-10 text-white font-gabarito text-[80px] md:text-[112px] shrink-0 whitespace-nowrap">
@@ -38,6 +39,7 @@ function ScrollContainer() {
             className="w-10 md:w-20 ml-10"
             src={Arrow_Small_Yellow}
             alt="Arrow_Small_Yellow"
+            loading="lazy"
           />
         </span>
         <span className="flex items-center pr-10 text-white font-gabarito text-[80px] md:text-[112px] shrink-0 whitespace-nowrap">
@@ -46,6 +48,7 @@ function ScrollContainer() {
             className="w-10 md:w-20 ml-10"
             src={Arrow_Small_Yellow}
             alt="Arrow_Small_Yellow"
+            loading="lazy"
           />
         </span>
         <span className="flex items-center pr-10 text-white font-gabarito text-[80px] md:text-[112px] shrink-0 whitespace-nowrap">
@@ -54,6 +57,7 @@ function ScrollContainer() {
             className="w-10 md:w-20 ml-10"
             src={Arrow_Small_Yellow}
             alt="Arrow_Small_Yellow"
+            loading="lazy"
           />
         </span>
       </motion.div>

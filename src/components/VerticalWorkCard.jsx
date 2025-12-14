@@ -45,6 +45,7 @@ function VerticalWorkCard({
           src={hoverImage ? src2 : src1}
           alt={hoverImage ? src2 : src1}
           className="w-full lg:w-[95%] h-[250px] lg:h-[420px] rounded-2xl relative object-cover transition-opacity duration-700 opacity-100"
+          loading="lazy"
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         />
@@ -59,7 +60,7 @@ function VerticalWorkCard({
       >
         <div className="flex items-center gap-2 text-3xl font-marckScript font-thin">
           <h1 className="font-medium">{count}</h1>
-          <img src={Arrow_Long_Yellow} alt="Arrow_Long_Yellow" />
+          <img src={Arrow_Long_Yellow} alt="Arrow_Long_Yellow" loading="lazy" />
           <p>{year}</p>
         </div>
 

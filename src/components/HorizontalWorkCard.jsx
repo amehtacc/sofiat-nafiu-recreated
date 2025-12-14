@@ -15,7 +15,7 @@ function HorizontalWorkCard({
   projectDescription,
 }) {
   const [hoverImage, setHoverImage] = useState(false);
-  
+
   const ref = useRef(null);
   const isInView = useInView(ref, { amount: 0.25, once: false });
 
@@ -47,6 +47,7 @@ function HorizontalWorkCard({
               src={src1}
               alt={src1}
               className="absolute inset-0 w-full h-full object-cover transition-opacity duration-700 opacity-100"
+              loading="lazy"
             />
 
             {/* Hover image */}
@@ -55,6 +56,7 @@ function HorizontalWorkCard({
               alt={src2}
               className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 
                 ${hoverImage ? "opacity-100" : "opacity-0"}`}
+              loading="lazy"
             />
           </div>
         </motion.div>
@@ -62,12 +64,16 @@ function HorizontalWorkCard({
         <motion.div
           initial={{ y: 80, opacity: 0 }}
           animate={isInView ? { y: 0, opacity: 100 } : {}}
-          transition={{ duration: 2, ease: "easeInOut"}}
+          transition={{ duration: 2, ease: "easeInOut" }}
           className="lg:w-1/2 pt-5 lg:pt-10"
         >
           <div className="flex items-center gap-2 text-3xl font-marckScript font-thin">
             <h1 className="font-medium">{count}</h1>
-            <img src={Arrow_Long_Yellow} alt="Arrow_Long_Yellow" />
+            <img
+              src={Arrow_Long_Yellow}
+              alt="Arrow_Long_Yellow"
+              loading="lazy"
+            />
             <p>{year}</p>
           </div>
 

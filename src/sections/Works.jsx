@@ -85,7 +85,11 @@ function Works() {
             <div className="w-full lg:w-[40%] lg:mr-32">
               <div className="lg:hidden flex items-center gap-2 text-3xl font-marckScript font-thin mb-4">
                 <h1 className="font-medium">05</h1>
-                <img src={Arrow_Long_Yellow} alt="Arrow_Long_Yellow" />
+                <img
+                  src={Arrow_Long_Yellow}
+                  alt="Arrow_Long_Yellow"
+                  loading="lazy"
+                />
                 <p>2023</p>
               </div>
               <p className="text-xs font-architectsDaughter flex gap-1 text-[#2c0412]">
@@ -109,7 +113,11 @@ function Works() {
             <div className="mt-5 lg:mt-0 lg:ml-auto">
               <div className="hidden lg:flex items-center gap-2 text-3xl font-marckScript font-thin mb-1">
                 <h1 className="font-medium">05</h1>
-                <img src={Arrow_Long_Yellow} alt="Arrow_Long_Yellow" />
+                <img
+                  src={Arrow_Long_Yellow}
+                  alt="Arrow_Long_Yellow"
+                  loading="lazy"
+                />
                 <p>2023</p>
               </div>
 
@@ -127,7 +135,11 @@ function Works() {
             <div className="w-full lg:w-[40%] lg:mr-32">
               <div className="lg:hidden flex items-center gap-2 text-3xl font-marckScript font-thin mb-4">
                 <h1 className="font-medium">06</h1>
-                <img src={Arrow_Long_Yellow} alt="Arrow_Long_Yellow" />
+                <img
+                  src={Arrow_Long_Yellow}
+                  alt="Arrow_Long_Yellow"
+                  loading="lazy"
+                />
                 <p>2022</p>
               </div>
               <p className="text-xs font-architectsDaughter flex gap-1 text-[#2c0412]">
@@ -151,7 +163,11 @@ function Works() {
             <div className="mt-5 lg:mt-0 lg:ml-auto">
               <div className="hidden lg:flex items-center gap-2 text-3xl font-marckScript font-thin mb-1">
                 <h1 className="font-medium">06</h1>
-                <img src={Arrow_Long_Yellow} alt="Arrow_Long_Yellow" />
+                <img
+                  src={Arrow_Long_Yellow}
+                  alt="Arrow_Long_Yellow"
+                  loading="lazy"
+                />
                 <p>2022</p>
               </div>
 

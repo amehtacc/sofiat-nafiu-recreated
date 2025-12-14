@@ -20,6 +20,7 @@ function Footer() {
                 className="w-8 rotate-90 lg:rotate-0"
                 src={Arrow_Small_Yellow}
                 alt="Arrow_Small_Yellow_Right"
+                loading="lazy"
               />
             </div>        
         </div>
@@ -39,6 +40,7 @@ function Footer() {
                 className="w-8 rotate-90 lg:rotate-0"
                 src={Arrow_Small_Yellow}
                 alt="Arrow_Small_Yellow_Right"
+                loading="lazy"
               />
             </div>
           </div>
