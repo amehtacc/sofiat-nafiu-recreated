@@ -45,7 +45,7 @@ function HorizontalWorkCard({
             {/* Base image */}
             <img
               src={src1}
-              alt={src1}
+              alt="project preview"
               className="absolute inset-0 w-full h-full object-cover transition-opacity duration-700 opacity-100"
               loading="lazy"
             />
@@ -53,7 +53,7 @@ function HorizontalWorkCard({
             {/* Hover image */}
             <img
               src={src2}
-              alt={src2}
+              alt="project preview"
               className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 
                 ${hoverImage ? "opacity-100" : "opacity-0"}`}
               loading="lazy"

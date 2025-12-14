@@ -40,14 +40,14 @@ function VerticalWorkCard({
         animate={isImageInView ? { y: 0, opacity: 100 } : {}}
         transition={{ duration: 1, ease: "easeInOut" }}
         className={`flex ${imageClassName}`}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
       >
         <img
           src={hoverImage ? src2 : src1}
-          alt={hoverImage ? src2 : src1}
+          alt="project preview"
           className="w-full lg:w-[95%] h-[250px] lg:h-[420px] rounded-2xl relative object-cover transition-opacity duration-700 opacity-100"
           loading="lazy"
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
         />
       </motion.div>
 
