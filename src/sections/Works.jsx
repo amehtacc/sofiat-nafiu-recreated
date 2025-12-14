@@ -13,7 +13,7 @@ import {
   Spintowin_Overlay_1,
   Spintowin_Overlay_2,
   Arrow_Long_Yellow,
-} from "../assets/images";
+} from "../assets/images.js";
 
 function Works() {
   return (

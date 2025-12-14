@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import { motion, useInView } from "motion/react";
-import { Arrow_Long_Yellow } from "../assets/images";
+import { Arrow_Long_Yellow } from "../assets/images.js";
 import Button from "./Button";
 
 function HorizontalWorkCard({
@@ -33,7 +33,7 @@ function HorizontalWorkCard({
       >
         <motion.div
           initial={{ y: 100, opacity: 0 }}
-          animate={isInView ? { y: 0, opacity: 100 } : {}}
+          animate={isInView ? { y: 0, opacity: 1 } : { y: 100, opacity: 0 }}
           transition={{ duration: 1, ease: "easeInOut" }}
           className={`lg:w-1/2 flex ${imageClassName}`}
         >
@@ -63,7 +63,7 @@ function HorizontalWorkCard({
 
         <motion.div
           initial={{ y: 80, opacity: 0 }}
-          animate={isInView ? { y: 0, opacity: 100 } : {}}
+          animate={isInView ? { y: 0, opacity: 1 } : { y: 80, opacity: 0 }}
           transition={{ duration: 2, ease: "easeInOut" }}
           className="lg:w-1/2 pt-5 lg:pt-10"
         >

@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { Arrow_Down } from "../assets/images";
+import { Arrow_Down } from "../assets/images.js";
 import { motion } from "motion/react";
 
 function Hero() {
@@ -13,7 +13,7 @@ function Hero() {
       <div className="w-full h-full pb-4 border-x border-[rgb(44,4,18)] font-gabarito">
         <motion.div
           initial={{ y: 100, opacity: 0 }}
-          animate={{ y: 0, opacity: 100 }}
+          animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1, ease: "easeInOut" }}
         >
           <div className="h-[90%] flex flex-col items-start justify-between px-4 lg:px-8 pt-20 lg:pt-16">

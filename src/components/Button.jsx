@@ -1,5 +1,5 @@
 import React from "react";
-import {Arrow} from "../assets/images"
+import {Arrow} from "../assets/images.js"
 
 function Button({text, textClassName, arrowClassName}) {
   return (

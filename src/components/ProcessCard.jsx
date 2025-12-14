@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Arrow, Arrow_Yellow } from "../assets/images";
+import { Arrow, Arrow_Yellow } from "../assets/images.js";
 
 function ProcessCard({index, count, title, details, expandedHeight, openIndex, setOpenIndex}) {
   const [hover, setHover] = useState(false);

@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "motion/react";
-import { Arrow_Small_Yellow } from "../assets/images";
+import { Arrow_Small_Yellow } from "../assets/images.js";
 
 function ScrollContainer() {
   const refScrollX = useRef(null);

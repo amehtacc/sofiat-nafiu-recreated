@@ -1,5 +1,5 @@
 import React from "react";
-import { Logo_Black } from "../assets/images";
+import { Logo_Black } from "../assets/images.js";
 import { AnimatePresence, motion } from "motion/react";
 
 function ImageAnimation() {

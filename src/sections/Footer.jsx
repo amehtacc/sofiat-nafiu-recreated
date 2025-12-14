@@ -1,5 +1,5 @@
 import React from "react";
-import { Arrow_Small_Yellow } from "../assets/images";
+import { Arrow_Small_Yellow } from "../assets/images.js";
 function Footer() {
   return (
     <footer className="relative w-full bg-[#100a0d] lg:bg-transparent px-4 lg:px-10 overflow-hidden">

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Logo_Black, Logo_Yellow, Arrow } from "../assets/images";
+import { Logo_Black, Logo_Yellow, Arrow } from "../assets/images.js";
 import { Menu } from "lucide-react";
 import SliderMenu from "./SliderMenu";
 

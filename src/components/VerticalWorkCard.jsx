@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { Arrow_Long_Yellow } from "../assets/images";
+import { Arrow_Long_Yellow } from "../assets/images.js";
 import Button from "./Button";
 import { motion, useInView } from "motion/react";
 
@@ -30,6 +30,7 @@ function VerticalWorkCard({
   function handleMouseLeave() {
     setHoverImage(false);
   }
+
   return (
     <div
       className={`w-full lg:w-1/2 flex flex-col lg:pt-6 lg:pb-10 lg:gap-8 ${className}`}
@@ -37,24 +38,32 @@ function VerticalWorkCard({
       <motion.div
         ref={imageRef}
         initial={{ y: 100, opacity: 0 }}
-        animate={isImageInView ? { y: 0, opacity: 100 } : {}}
+        animate={isImageInView ? { y: 0, opacity: 1 } : { y: 100, opacity: 0 }}
         transition={{ duration: 1, ease: "easeInOut" }}
         className={`flex ${imageClassName}`}
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
       >
-        <img
-          src={hoverImage ? src2 : src1}
-          alt="project preview"
-          className="w-full lg:w-[95%] h-[250px] lg:h-[420px] rounded-2xl relative object-cover transition-opacity duration-700 opacity-100"
-          loading="lazy"
-        />
+        <div
+          className="w-full lg:w-[95%] h-[250px] lg:h-[420px]"
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+          onTouchStart={handleMouseEnter}
+          onTouchEnd={handleMouseLeave}
+        >
+          <img
+            src={hoverImage ? src2 : src1}
+            alt="project preview"
+            className="w-full h-full rounded-2xl relative object-cover transition-opacity duration-700 opacity-100"
+            loading="lazy"
+          />
+        </div>
       </motion.div>
 
       <motion.div
         ref={contentRef}
         initial={{ y: 100, opacity: 0 }}
-        animate={isContentInView ? { y: 0, opacity: 100 } : {}}
+        animate={
+          isContentInView ? { y: 0, opacity: 1 } : { y: 100, opacity: 0 }
+        }
         transition={{ duration: 1.5, ease: "easeInOut" }}
         className={`pt-5 lg:pt-0 ${detailsClassName}`}
       >
